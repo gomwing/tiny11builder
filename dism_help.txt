@@ -1,0 +1,49 @@
+/Remove-ProvisionedAppxPackage - Removes an app package (.appx or .appxbundle) from the image. When creating a new user account, these application packages will not be installed.
+/Add-ProvisionedAppxPackage - Adds an app package (.appx or .appxbundle) to the image and sets it to install for each new user.
+/Get-ProvisionedAppxPackages - Displays information about the application packages (.appx or .appxbundle) in the image that are set up to be installed for each new user.
+
+/Remove-Package      - Removes a package from the image.
+/Enable-Feature      - Enables a specific feature in the image.
+/Disable-Feature     - Disables a specific feature in the image.
+/Get-Packages        - displays information about all packages in the image.
+/Get-PackageInfo     - displays information about a specific package.
+/Get-Features        - displays information about all features in the package.
+/Get-FeatureInfo     - displays information about a specific feature.
+/Cleanup-Image       - performs cleanup and recovery of an image
+                          operate.
+/Export-Source       - Export a set of features into a new repository.
+/Add-Capability      - Adds one or more capabilities to the image.
+/Remove-Capability   - Removes capabilities from an image.
+/Get-Capabilities    - Get the capabilities in the image.
+/Get-CapabilityInfo  - Gets information about capabilities in the image.
+/Get-ReservedStorageState - Gets the current state of reserved storage.
+/Set-ReservedStorageState - Sets the current state of reserved storage.
+
+
+
+Driver service commands:
+
+/Remove-Driver       - Removes the driver package from the offline image.
+/Add-Driver          - Adds a driver package to the offline image.
+/Get-DriverInfo      - Displays information about the driver information in an offline image or in a running operating system
+                       Driver-specific information.
+/Get-Drivers         - displays information about an offline image or a running operating system
+                       information for all drivers.
+/Export-Driver       - from an offline image or a running operating system
+                       Export all third-party driver packages.
+
+Application service commands:
+
+/Check-AppPatch      - Displays information about whether MSP patches are applicable to the installed image.
+/Get-AppPatchInfo    - Displays information about installed MSP patches.
+/Get-AppPatches      - Displays all information about all installed applications
+                          MSP patch information.
+/Get-AppInfo         - Displays information about a specific installed MSI application.
+/Get-Apps            - Displays information about all installed MSI applications.
+
+
+
+Provisioning package service command:
+
+/Get-ProvisioningPackageInfo - Gets provisioning package information.
+/Add-ProvisioningPackage - Adds a provisioning package.
