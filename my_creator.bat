@@ -311,6 +311,7 @@ echo Performing Cleanup...
 rd c:\tiny11 /s /q
 rd c:\scratchdir /s /q
 
+::exit /b
 goto:eof
 
 :rm_pap
@@ -328,7 +329,7 @@ goto:eof
     goto:eof
 
 ::-------------------------
-exit
+::exit
 
 
 
